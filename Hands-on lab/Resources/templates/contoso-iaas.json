@@ -94,7 +94,7 @@
                         "value": "ADVM1"
                     },
                     "AvailabilityZone": {
-                        "value": "0"
+                        "value": "2"
                     },
                     "ADSubnetId": {
                         "value": "[reference('VirtualNetwork').outputs.ADSubnetId.value]"
@@ -166,7 +166,7 @@
                         "value": "WebVM1"
                     },
                     "AvailabilityZone": {
-                        "value": "0"
+                        "value": "2"
                     },
                     "adminUserName": {
                         "value": "[parameters('adminUserName')]"
@@ -216,7 +216,7 @@
                         "value": "SQLVM1"
                     },
                     "AvailabilityZone": {
-                        "value": "0"
+                        "value": "2"
                     },
                     "adminUserName": {
                         "value": "[parameters('adminUserName')]"
