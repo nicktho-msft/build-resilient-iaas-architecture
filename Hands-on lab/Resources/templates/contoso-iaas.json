@@ -36,7 +36,7 @@
         },
         "baseUri": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/microsoft/MCW-Building-a-resilient-IaaS-architecture/"
+            "defaultValue": "https://raw.githubusercontent.com/nicktho-msft/build-resilient-iaas-architecture/"
         },
         "resourceFolder": {
             "type": "string",
