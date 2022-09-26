@@ -77,7 +77,7 @@
     "SQLImagePublisher": "MicrosoftSQLServer",
     "SQLImageOffer": "SQL2017-WS2016",
     "SQLSKU": "SQLDEV",
-    "SQLVMSize": "[concat('Standard_',parameters('skuSizeVM'))]",
+    "SQLVMSize": "Standard_DS1",
     "SQLVMOSDiskName": "[concat(parameters('SQLVMName'), 'OSDisk')]",
     "SQLVMDataDiskName": "[concat(parameters('SQLVMName'), 'DataDisk1')]",
     "SQLNicName": "[concat(parameters('SQLVMName'), 'NIC')]",
