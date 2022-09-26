@@ -88,7 +88,7 @@
     "WebVMImagePublisher": "MicrosoftWindowsServer",
     "WebVMImageOffer": "WindowsServer",
     "WebSKU": "2019-Datacenter",
-    "WebVMSize": "[concat('Standard_',parameters('skuSizeVM'))]",
+    "WebVMSize": "Standard_DS1",
     "WebVMNicName": "[concat(parameters('WebVMName'), 'NIC')]",
     "WebVMOSDiskName": "[concat(parameters('WebVMName'), 'OSDisk')]",
     "WebVMIPName": "[concat(parameters('WebVMName'), 'IP')]",
