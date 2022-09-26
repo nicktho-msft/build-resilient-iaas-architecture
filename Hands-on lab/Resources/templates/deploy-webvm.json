@@ -3,14 +3,15 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "skuSizeVM": {
-          "defaultValue": "Standard_DS1",
+          "defaultValue": "Standard_D2s_v3",
           "type": "string",
           "metadata": {
             "description": "Size of Virtual Machines to use"
           },
           "allowedValues": [
 			"Standard_DS1_v2",
-			"Standard_DS1"
+			"Standard_DS1",
+		  	"Standard_D2s_v3"
           ]
     },
     "WebVMName": {
