@@ -1,18 +1,17 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "skuSizeVM": {
-      "defaultValue": "D2s_v3",
-      "type": "string",
-      "metadata": {
-        "description": "Size of Virtual Machines to use"
-      },
-      "allowedValues": [
-        "D2s_v3",
-        "D2s_v5",
-        "DC2s_v3"
-      ]
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "skuSizeVM": {
+          "defaultValue": "Standard_DS1",
+          "type": "string",
+          "metadata": {
+            "description": "Size of Virtual Machines to use"
+          },
+          "allowedValues": [
+			"Standard_DS1_v2",
+			"Standard_DS1"
+          ]
     },
     "SQLVMName": {
       "type": "string",
