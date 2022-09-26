@@ -81,7 +81,7 @@
     "ADVMOSDiskName": "[concat(parameters('ADVMName'), 'OSDisk')]",
     "ADVMDataDiskName": "[concat(parameters('ADVMName'), 'DataDisk1')]",
     "DiskType": "Premium_LRS",
-    "ADVMVmSize": "Standard_DS1",
+    "ADVMVmSize": "Standard_D2_v4",
     "ADVMNicName": "[concat(parameters('ADVMName'), 'NIC')]",
     "scriptBase": "[concat(parameters('baseUri'), parameters('resourceFolder'), 'scripts/')]",
     "scriptFileName": "[if(parameters('newDomain'), 'deploy-advm-new.ps1', 'deploy-advm-existing.ps1')]",
