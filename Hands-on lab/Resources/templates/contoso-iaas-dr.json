@@ -3,15 +3,14 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "skuSizeVM": {
-            "defaultValue": "D2s_v3",
+            "defaultValue": "Standard_D2s_v4",
             "type": "string",
             "metadata": {
                 "description": "Size of Virtual Machines to use"
             },
             "allowedValues": [
-                "D2s_v3",
-                "D2s_v5",
-                "DC2s_v3"
+                "Standard_D2s_v3",
+                "Standard_D2s_v4"
             ]
         },
         "adminUsername": {
@@ -51,7 +50,7 @@
         },
         "baseUri": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/microsoft/MCW-Building-a-resilient-IaaS-architecture/"
+            "defaultValue": "https://raw.githubusercontent.com/nicktho-msft/build-resilient-iaas-architecture/"
         },
         "resourceFolder": {
             "type": "string",

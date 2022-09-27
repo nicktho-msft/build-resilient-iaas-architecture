@@ -9,7 +9,7 @@
             "description": "Size of Virtual Machines to use"
           },
           "allowedValues": [
-            "Standard_D2_v4",
+            "Standard_D2s_v3",
             "Standard_D2s_v4"
           ]
     },
