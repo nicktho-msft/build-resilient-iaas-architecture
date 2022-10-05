@@ -4,6 +4,9 @@ I have repurposed this lab to work in Microsoft's new non-production Azure tenan
 
 One of the largest issues I had was lack of availability of VM SKUs. I found this helpful piece of documentation from Microsoft Docs to allow you to view which VM SKUs are available in your subscription, and in which availability zones: [Resolve errors for SKU not available](https://learn.microsoft.com/en-us/azure/azure-resource-manager/troubleshooting/error-sku-not-available?tabs=azure-cli).
 
+### Fix WSL DNS issues
+I found a solution at [https://gist.github.com/djfdyuruiry/8ec94d6454fbacccafb092022fe041a3](https://gist.github.com/djfdyuruiry/8ec94d6454fbacccafb092022fe041a3)
+
 # Building a resilient IaaS architecture 
 
 Contoso Insurance (CI), headquartered in Miami, provides insurance solutions across North America. Its products include accident and health insurance, life insurance, travel, home, and auto coverage. CI manages data collection services by sending mobile agents directly to the insured to gather information as part of the data collection process for claims from an insured individual. These mobile agents are based all over the US and are residents of the region in which they work. Mobile agents are managed remotely, and each regional corporate office has a support staff responsible for scheduling their time based on requests that arrive to the system. The company's headquarters in in Miami, Florida with a second large location in Seattle, Washington along with three smaller branch offices scatted around the United States.
